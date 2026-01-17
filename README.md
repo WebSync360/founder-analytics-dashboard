@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Founder Ops Workspace
 
-## Getting Started
+A clean, focused **internal operations tool** built for **non-technical B2B SaaS founders** to manage product progress, users, and day-to-day execution — without relying on scattered tools like Notion, Sheets, or Slack.
 
-First, run the development server:
+This project is designed as a **UI-first internal system**, prioritizing clarity, workflow visibility, and founder decision-making over premature complexity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Problem
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Early-stage, non-technical SaaS founders struggle with internal visibility:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Product progress lives in developers’ heads  
+- Tasks are spread across Notion, Sheets, and messages  
+- User feedback is fragmented across emails and DMs  
+- There’s no single place to answer: *“What’s happening right now?”*
 
-## Learn More
+This results in:
+- Constant context switching  
+- Missed priorities  
+- Slower execution  
+- Founder fatigue
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## The Solution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Founder Ops Workspace** is a private, internal tool that centralizes:
 
-## Deploy on Vercel
+- Product workflow status  
+- Operational tasks  
+- User visibility and feedback  
+- Daily execution priorities  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+It provides a **calm, structured workspace** where founders can:
+- See what matters today  
+- Track progress without asking around  
+- Make decisions quickly and move on  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This is not analytics-heavy.  
+This is not customer-facing.  
+This is **founder operations clarity**.
+
+---
+
+## What This Tool Includes
+
+### Overview — Founder Dashboard
+- Daily priorities
+- Product status summary
+- Recent activity
+- Designed for quick scanning, not deep analysis
+
+### Product Workflow
+- Feature and initiative tracking
+- Clear status stages: Idea → In Progress → Review → Shipped
+- Visual progress without engineering noise
+
+### Users & Feedback
+- Early user listing
+- Centralized feedback visibility
+- Status tracking (trial, active, churned)
+- Keeps insights out of inboxes and DMs
+
+### Tasks & Operations
+- Non-engineering work tracking
+- Marketing, content, outreach, partnerships
+- Prevents important ops work from being forgotten
+
+### Workspace Settings
+- Workspace-level configuration
+- Mock roles and preferences
+- Completes the internal product experience
+
+---
+
+## Design Principles
+
+- Clarity over density  
+- Calm, neutral UI for focus  
+- Strong hierarchy and spacing  
+- Obvious status and actions  
+
+This is not a marketing site.  
+This is an **internal tool founders would actually use**.
+
+---
+
+## Tech Stack (Frontend-First)
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
+- Framer Motion (subtle transitions)
+
+### Data Handling
+- Structured mock data (JSON)
+- UI-driven state updates
+- Designed to be replaceable with real APIs later
+
+No authentication, backend, or database is included **by design**.
+
+---
+
+## Who This Is For
+
+- Non-technical B2B SaaS founders  
+- Pre-seed and early-stage SaaS teams  
+- Product engineers building internal tools  
+- Founders replacing Notion + Sheets with real systems  
+
+---
+
+## Project Philosophy
+
+This project intentionally avoids:
+- Premature backend complexity
+- Heavy state management
+- Over-engineered abstractions
+
+It focuses on:
+- Product thinking
+- Internal workflows
+- Reusable structure
+- Real-world founder problems
+
+Built to be:
+- Readable
+- Extendable
+- Easy to connect to a real backend later
+
+---
+
+## Positioning
+
+> “I build internal tools that give non-technical SaaS founders clarity and control without overengineering.”
+
+This project represents that philosophy in practice.
