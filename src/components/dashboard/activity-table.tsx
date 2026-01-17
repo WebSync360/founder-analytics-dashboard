@@ -1,6 +1,7 @@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
 import { MOCK_DATA } from "@/data/mock-analytics";
+import { cn } from "@/lib/utils";
 
 export function ActivityTable() {
   return (
