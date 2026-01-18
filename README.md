@@ -1,140 +1,141 @@
-# Founder Ops Workspace
+# Founder Analytics Dashboard
 
-A clean, focused **internal operations tool** built for **non-technical B2B SaaS founders** to manage product progress, users, and day-to-day execution — without relying on scattered tools like Notion, Sheets, or Slack.
+A clean, focused **analytics workspace** built for **early-stage and non-technical SaaS founders** to understand product health, growth trends, and key business signals — without complex tooling, noisy dashboards, or premature data pipelines.
 
-This project is designed as a **UI-first internal system**, prioritizing clarity, workflow visibility, and founder decision-making over premature complexity.
+This project is designed as a **UI-first analytics system** — prioritizing clarity, storytelling, and decision support over raw data volume.
 
 ---
 
 ## The Problem
 
-Early-stage, non-technical SaaS founders struggle with internal visibility:
+Founders often lack clear visibility into how their product is performing:
 
-- Product progress lives in developers’ heads  
-- Tasks are spread across Notion, Sheets, and messages  
-- User feedback is fragmented across emails and DMs  
-- There’s no single place to answer: *“What’s happening right now?”*
+- Metrics are scattered across tools or not tracked at all
+- Early dashboards are either too shallow or overly complex
+- Founders can’t quickly answer: *“Are we growing or stagnating?”*
+- Analytics tools feel intimidating before real scale
 
 This results in:
-- Constant context switching  
-- Missed priorities  
-- Slower execution  
-- Founder fatigue
+- Guesswork instead of insight
+- Delayed decisions
+- Overreliance on engineers
+- Poor product intuition
 
 ---
 
 ## The Solution
 
-**Founder Ops Workspace** is a private, internal tool that centralizes:
+**Founder Analytics Dashboard** provides a calm, opinionated analytics experience that focuses on:
 
-- Product workflow status  
-- Operational tasks  
-- User visibility and feedback  
-- Daily execution priorities  
+- High-signal KPIs
+- Growth trends over time
+- Clear breakdowns of what’s changing
+- Quick insights without digging
 
-It provides a **calm, structured workspace** where founders can:
-- See what matters today  
-- Track progress without asking around  
-- Make decisions quickly and move on  
+It gives founders a **single page** to:
+- Understand business health in seconds
+- Spot trends early
+- Build intuition around their product’s performance
 
-This is not analytics-heavy.  
-This is not customer-facing.  
-This is **founder operations clarity**.
+This is not an enterprise BI tool.  
+This is **founder-level analytics clarity**.
 
 ---
 
-## What This Tool Includes
+## What This Dashboard Includes
 
-### Overview — Founder Dashboard
-- Daily priorities
-- Product status summary
-- Recent activity
-- Designed for quick scanning, not deep analysis
+### 1. KPI Summary
+- Key metrics at a glance (Users, Revenue, Conversion, Churn)
+- Percentage change indicators
+- Designed for immediate health checks
 
-### Product Workflow
-- Feature and initiative tracking
-- Clear status stages: Idea → In Progress → Review → Shipped
-- Visual progress without engineering noise
+### 2. Growth Over Time
+- Line charts for users and revenue
+- Time-range filters (7 / 30 / 90 days)
+- Visual storytelling over raw numbers
 
-### Users & Feedback
-- Early user listing
-- Centralized feedback visibility
-- Status tracking (trial, active, churned)
-- Keeps insights out of inboxes and DMs
+### 3. Metric Breakdown
+- Channel or category comparisons
+- Simple bar / stacked charts
+- Highlights where growth is coming from
 
-### Tasks & Operations
-- Non-engineering work tracking
-- Marketing, content, outreach, partnerships
-- Prevents important ops work from being forgotten
+### 4. Activity & Metrics Log
+- Tabular view of recent metric changes
+- Adds credibility and depth
+- Supports founder review workflows
 
-### Workspace Settings
-- Workspace-level configuration
-- Mock roles and preferences
-- Completes the internal product experience
+### 5. Insights Panel
+- Space for notes, observations, and trends
+- Encourages reflection, not just monitoring
 
 ---
 
 ## Design Principles
 
-- Clarity over density  
-- Calm, neutral UI for focus  
-- Strong hierarchy and spacing  
-- Obvious status and actions  
+- **Signal over noise**
+- Calm, neutral interface
+- Strong visual hierarchy
+- Charts that explain, not overwhelm
+- Feels like a real internal product, not a demo
 
-This is not a marketing site.  
-This is an **internal tool founders would actually use**.
+This is not a marketing dashboard.  
+This is an **internal decision-making tool**.
 
 ---
 
-## Tech Stack (Frontend-First)
+## Tech Stack (Frontend-Only)
 
 - Next.js (App Router)
 - TypeScript
 - Tailwind CSS
 - shadcn/ui
+- Recharts
 - Lucide Icons
-- Framer Motion (subtle transitions)
 
 ### Data Handling
-- Structured mock data (JSON)
-- UI-driven state updates
-- Designed to be replaceable with real APIs later
+- Structured mock JSON data
+- Realistic time-series values
+- Easily replaceable with real APIs later
 
-No authentication, backend, or database is included **by design**.
+No authentication, backend, or real analytics integrations are included **by design**.
 
 ---
 
 ## Who This Is For
 
-- Non-technical B2B SaaS founders  
-- Pre-seed and early-stage SaaS teams  
-- Product engineers building internal tools  
-- Founders replacing Notion + Sheets with real systems  
+- Non-technical SaaS founders
+- Pre-seed and early-stage startups
+- Product engineers building analytics UIs
+- Portfolios that emphasize product thinking
 
 ---
 
 ## Project Philosophy
 
 This project intentionally avoids:
-- Premature backend complexity
-- Heavy state management
-- Over-engineered abstractions
+
+- Real analytics ingestion
+- Complex filtering logic
+- Multi-page drill-downs
+- Premature backend engineering
 
 It focuses on:
-- Product thinking
-- Internal workflows
-- Reusable structure
-- Real-world founder problems
+
+- Analytics storytelling
+- Founder empathy
+- UI clarity
+- Scalable structure
 
 Built to be:
-- Readable
+- Simple
+- Believable
 - Extendable
-- Easy to connect to a real backend later
+- Ready for real data later
 
 ---
 
 ## Positioning
 
-> “I build internal tools that give non-technical SaaS founders clarity and control without overengineering.”
+> “I design and build analytics dashboards that help founders understand their business — without overengineering or confusion.”
 
-This project represents that philosophy in practice.
+This project demonstrates that philosophy in practice.
